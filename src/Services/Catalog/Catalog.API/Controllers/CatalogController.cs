@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Catalog.API.Controllers
 {
     [ApiController]
-    [Route("{controller}")]
+    [Route("api/v1/[controller]")]
     public class CatalogController : ControllerBase
     {
 
