@@ -79,6 +79,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CacheSettings__ConnectionString=basketdb:6379"
       - "GrpcSettings__DiscountUrl=http://discount.grpc"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@localhost:5672"
     depends_on:
       - basketdb
     ports:
@@ -109,6 +110,8 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "ConnectionStrings:OrderingConnectionString=Server=localhost;Database=OrderDb;User Id=sa;Password=swn12345678;"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@localhost:5672"
+
     depends_on:
       - orderdb
     ports:
