@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{62EC7004-9F87-4132-A1C6-B2FC0215F299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{8A34C367-F80E-4EB7-92B0-5E057BB33356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{8A34C367-F80E-4EB7-92B0-5E057BB33356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{1A7451DE-CD00-42D4-A59B-F741F1CB4E8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{8A34C367-F80E-4EB7-92B0-5E057BB33356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A34C367-F80E-4EB7-92B0-5E057BB33356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A34C367-F80E-4EB7-92B0-5E057BB33356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7451DE-CD00-42D4-A59B-F741F1CB4E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7451DE-CD00-42D4-A59B-F741F1CB4E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7451DE-CD00-42D4-A59B-F741F1CB4E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7451DE-CD00-42D4-A59B-F741F1CB4E8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{393D7E56-6BAC-4BE8-8A1E-436E4ECA33CE} = {C1362BC7-C996-4010-A0EB-B82737F2F605}
 		{FAB1801A-7D9D-4FF3-BED3-9FFB87FE1A16} = {2664E8E0-D8E9-4FDE-9AAD-EAC036F7C21C}
 		{8A34C367-F80E-4EB7-92B0-5E057BB33356} = {62EC7004-9F87-4132-A1C6-B2FC0215F299}
+		{1A7451DE-CD00-42D4-A59B-F741F1CB4E8A} = {62EC7004-9F87-4132-A1C6-B2FC0215F299}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7634431D-F1BB-42DF-A039-528BF05E99A0}
